@@ -1,0 +1,39 @@
+
+footer{
+    
+    background-color: rgb(175, 175, 175);
+}
+
+.rodape {
+    margin-top: 15px;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    border-left: 3px solid rgb(14, 14, 14);
+}
+
+#contato h3 {
+    padding-bottom: 8px;
+}
+
+#contato {
+    border: none;
+}
+
+#redes{
+    gap: 10px;
+}
+
+#footeritens {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+@media screen and (max-width: 700px) {
+    .rodape {
+        font-size: 9px ;
+    }
+}

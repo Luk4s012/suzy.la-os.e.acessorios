@@ -1,0 +1,67 @@
+
+#banner {
+    margin-top: 10px;
+    padding-block:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-top: 2px solid #1a1a1a;
+
+}
+
+.bannerpadrao {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-right: 1px solid #1a1a1a;
+}
+
+#itenbanner3{
+    border-right: none;
+}
+
+.iconebanner {
+    padding: 20px;
+    position: relative;
+    right: -5px;
+    font-size: 2rem;
+
+}
+
+#pecaagora {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #1a1a1a;
+
+}
+
+#pecaagora #grifado {
+    color: #F0A3B1;
+}
+
+#cliqueaqui {
+    color: #1a1a1a;
+    
+}
+
+@media screen and (max-width: 1000px) {
+    #itenbanner1{
+        border: none;
+    }
+    #itenbanner2 {
+        display: none;
+    }
+    #itenbanner3 {
+        display: none;
+    }
+
+    #sumir {
+        display: none;
+    }
+
+}

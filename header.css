@@ -1,0 +1,81 @@
+/*header de pc*/
+
+header{
+    width: 100%; /*definindo o tamanho padrão*/
+    padding: 3px 1%; /*padding padrão do header*/
+    position: sticky;
+    top: 0px;
+    background-color: #F3E7DA ;
+    z-index: 3;
+}
+
+#navbar {
+    width: 100%; 
+    /*organizando a posição de itens*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 20px; /*distancia entre itens*/
+}
+
+#logoimg{
+    width: 4rem;
+    height: auto;
+    
+}
+#navlist {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.naviten a {
+    text-decoration: none;
+    color: #1d1d1dad;
+    font-weight: 600;
+}
+
+.naviten.active a {
+    color: #1d1d1d;
+    border-bottom: 3px solid #F3E7DA ;
+}
+
+
+
+
+/*header de celular*/
+#mobilebtn {
+    display: none;
+}
+
+#mobilemenu {
+    display: none;
+}
+
+@media screen and (max-width: 700px)  {
+    #navlist, 
+    #navbar .btn-default {
+        display: none ;
+    }
+    #mobilebtn{
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+    #mobilemenu.active {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    #mobile_navlist {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+    margin: 12px 0px;
+    }
+}
+

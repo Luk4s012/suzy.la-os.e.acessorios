@@ -1,0 +1,144 @@
+
+
+#voltar{
+    background: transparent;
+    cursor: pointer;
+    border-color: transparent;
+    padding: 0px 0px;
+    width: 4rem;
+    height: auto;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+#bodypedindo{
+    background-color: #fbe3e3;
+}
+
+body{
+    background-color: #FFF0DA;
+}
+
+#voltar:hover {
+    background-color: #1d1d1d11;
+}
+
+#bnt-voltar {
+    padding: 0px 0px;
+}
+
+#logoimgpedindo{
+    width: 4rem;
+    height: auto;
+    border-radius: 100%;
+}
+
+#navbarpedindo {
+    width: 100%; 
+    /*organizando a posição de itens*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 20px; /*distancia entre itens*/
+}
+
+#imagem_pedindo {
+    display: flex;
+    width: 10rem;
+    height: auto;
+    border-radius: 10px;
+}
+.organização_produtos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    background: linear-gradient(to bottom, #E0B072 , #FEE9B4 );
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+.infoprincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#info{
+    background-color: transparent;
+    padding-left: 20px;
+    padding: 15px;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.elementosinfo{
+    margin-bottom: 15px;
+    
+}
+#pedir_esse_1{
+    background-color: #D4AF7F;
+}
+
+#selecionandoproduto2 img {
+    width: 176px;
+    height: auto;
+}
+#selecionandoproduto3 img {
+    width: 176px;
+    height: auto;
+}
+#selecionandoproduto4 img {
+    width: 165px;
+    height: auto;
+}
+#selecionandoproduto5 img {
+    width: 160px;
+    height: auto;
+}
+#selecionandoproduto6 img {
+    width: 165px;
+    height: auto;
+}
+#selecionandoproduto7 img {
+    width: 200px;
+    height: auto;
+}
+#selecionandoproduto8 img {
+    width: 200px;
+    height: auto;
+}
+.icons8-instagram-logo { 
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgMzAgMzAiIHdpZHRoPSIzMHB4IiBoZWlnaHQ9IjMwcHgiPjxwYXRoIGQ9Ik0gMTUgMiBDIDcuODMyIDIgMiA3LjgzMiAyIDE1IEMgMiAyMi4xNjggNy44MzIgMjggMTUgMjggQyAyMi4xNjggMjggMjggMjIuMTY4IDI4IDE1IEMgMjggNy44MzIgMjIuMTY4IDIgMTUgMiB6IE0gMTEuNjY2MDE2IDYgTCAxOC4zMzIwMzEgNiBDIDIxLjQ1NzAzMSA2IDI0IDguNTQyMDE1NiAyNCAxMS42NjYwMTYgTCAyNCAxOC4zMzIwMzEgQyAyNCAyMS40NTcwMzEgMjEuNDU3OTg0IDI0IDE4LjMzMzk4NCAyNCBMIDExLjY2Nzk2OSAyNCBDIDguNTQyOTY4OCAyNCA2IDIxLjQ1Nzk4NCA2IDE4LjMzMzk4NCBMIDYgMTEuNjY3OTY5IEMgNiA4LjU0Mjk2ODggOC41NDIwMTU2IDYgMTEuNjY2MDE2IDYgeiBNIDExLjY2NjAxNiA4IEMgOS42NDUwMTU2IDggOCA5LjY0NTk2ODggOCAxMS42Njc5NjkgTCA4IDE4LjMzMzk4NCBDIDggMjAuMzU0OTg0IDkuNjQ1OTY4OCAyMiAxMS42Njc5NjkgMjIgTCAxOC4zMzM5ODQgMjIgQyAyMC4zNTQ5ODQgMjIgMjIgMjAuMzU0MDMxIDIyIDE4LjMzMjAzMSBMIDIyIDExLjY2NjAxNiBDIDIyIDkuNjQ1MDE1NiAyMC4zNTQwMzEgOCAxOC4zMzIwMzEgOCBMIDExLjY2NjAxNiA4IHogTSAxOS42Njc5NjkgOS42NjYwMTU2IEMgMjAuMDM1OTY5IDkuNjY2MDE1NiAyMC4zMzM5ODQgOS45NjQwMzEyIDIwLjMzMzk4NCAxMC4zMzIwMzEgQyAyMC4zMzM5ODQgMTAuNzAwMDMxIDIwLjAzNTk2OSAxMSAxOS42Njc5NjkgMTEgQyAxOS4yOTk5NjkgMTEgMTkgMTAuNzAwMDMxIDE5IDEwLjMzMjAzMSBDIDE5IDkuOTY0MDMxMiAxOS4yOTk5NjkgOS42NjYwMTU2IDE5LjY2Nzk2OSA5LjY2NjAxNTYgeiBNIDE1IDEwIEMgMTcuNzU3IDEwIDIwIDEyLjI0MyAyMCAxNSBDIDIwIDE3Ljc1NyAxNy43NTcgMjAgMTUgMjAgQyAxMi4yNDMgMjAgMTAgMTcuNzU3IDEwIDE1IEMgMTAgMTIuMjQzIDEyLjI0MyAxMCAxNSAxMCB6IE0gMTUgMTIgQSAzIDMgMCAwIDAgMTUgMTggQSAzIDMgMCAwIDAgMTUgMTIgeiIvPjwvc3ZnPg==') 50% 50% no-repeat;
+    background-size: 100%; 
+}
+.btn-midia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 20px;
+    font-size: 2rem;
+    border: none;
+    background-color: transparent;
+}
+
+
+@media screen and (max-width: 700px) {
+    .rodape {
+        font-size: 9px ;
+    }
+    .organização_produtos{
+        margin-left: 12rem;
+        margin-right: 12rem;
+    }
+    
+}

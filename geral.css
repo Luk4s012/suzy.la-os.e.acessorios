@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(header.css);
+@import url(home.css);
+@import url(produtos.css);
+@import url(footer.css);
+@import url(banners.css);
+@import url(pedirproduto.css);
+
+/*reset padrão do site*/
+* {
+    font-family:"Source Code Pro", serif;/*definindo a fonte base*/
+    padding: 0px;/*reset padding*/
+    margin: 0px;/*reset margin*/
+    box-sizing: border-box;/*largura e altura de elementos*/
+}
+/*links do site*/
+a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+/*botões padrôes*/
+.btn-default {
+    border-color: #6E3F25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    transition: background-color .3s ease;
+}
+/*botões quando passar o mause em cima*/
+.btn-default:hover {
+    background-color: #1d1d1d11;
+}
+
+.btn-midia {
+    display: flex;
+    gap: 18px;
+}
+
+.btn-midia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 20px;
+    font-size: 2rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*conf padrão do corpo*/
+body{
+    background-color: #fbe3e3 ; /*fundo do site*/
+    
+    margin-top: 0px;
+}
+
+main{
+    margin-inline: 0px ;
+    margin-bottom: 20px;
+}
+
+.sectiontitle {
+    color: #6E3F25;
+    font-size: 1.563rem;
+}
+
+.sectionsubtitle {
+    font-size: 2.175rem;
+}
+
+#contato p {
+    font-family: "Roboto", serif;
+}
