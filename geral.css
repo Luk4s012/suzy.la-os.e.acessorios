@@ -9,6 +9,10 @@
 @import url(banners.css);
 @import url(pedirproduto.css);
 
+:root{
+    color-scheme: light;
+}
+
 /*reset padrão do site*/
 * {
     font-family:"Source Code Pro", serif;/*definindo a fonte base*/
