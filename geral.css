@@ -65,6 +65,7 @@ html{
 /*conf padrão do corpo*/
 body{
     background-color: #fbe3e3 ; /*fundo do site*/
+    color: #fbe3e3 ;
     
     margin-top: 0px;
 }
@@ -85,4 +86,18 @@ main{
 
 #contato p {
     font-family: "Roboto", serif;
+}
+
+@media (prefers-color-scheme: dark){
+    body{
+        background-color: #fbe3e3 ; /*fundo do site*/
+        color: #000000 ;
+    }
+}
+
+@media (prefers-color-scheme: light){
+    body{
+        background-color: #fbe3e3 ; /*fundo do site*/
+        color: #000000 ;
+    }
 }
