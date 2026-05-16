@@ -15,6 +15,7 @@ footer{
 
 #contato h3 {
     padding-bottom: 8px;
+
 }
 
 #contato {
@@ -34,6 +35,11 @@ footer{
 
 @media screen and (max-width: 700px) {
     .rodape {
-        font-size: 9px ;
+        font-size: 5px ;
+        gap: 3px;
+        padding: 3px;
+    }
+    #contato{
+        font-size: 8px ;
     }
 }
